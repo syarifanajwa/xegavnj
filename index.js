@@ -1,8 +1,8 @@
-import Button, { ButtonShowcase } from "./components/Button";
-import Card, { CardShowcase } from "./components/Card";
-import AppHeader, { HeaderShowcase } from "./components/AppHeader";
-import AppSidebar, { SidebarShowcase } from "./components/AppSidebar";
-import AppFooter, { FooterShowcase } from "./components/AppFooter";
-import { ThemeProvider, useTheme } from "./components/ThemeSwitcher";
+import Button, { ButtonShowcase } from "./components/Button.jsx";
+import Card, { CardShowcase } from "./components/Card.jsx";
+import AppHeader, { HeaderShowcase } from "./components/AppHeader.jsx";
+import AppSidebar, { SidebarShowcase } from "./components/AppSidebar.jsx";
+import AppFooter, { FooterShowcase } from "./components/AppFooter.jsx";
+import { ThemeProvider, useTheme } from "./components/ThemeSwitcher.jsx";
 
 export { Button, ButtonShowcase, Card, CardShowcase, AppHeader, HeaderShowcase, AppSidebar, SidebarShowcase, AppFooter, FooterShowcase, ThemeProvider, useTheme };
